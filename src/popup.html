@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BigInt Calculator</title>
+    <style>
+      body {
+        width: 500px;
+        padding: 10px;
+      }
+      #inputExpression {
+        width: 100%;
+        height: 80px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>BigInt Calculator</h1>
+    <input
+      type="text"
+      id="inputExpression"
+      placeholder="Enter an expression"
+      autofocus
+    />
+    <button id="copyResult">Copy Result</button>
+    <p>Result: <span id="result"></span></p>
+    <script src="popup.js"></script>
+  </body>
+</html>

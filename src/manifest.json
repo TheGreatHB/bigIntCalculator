@@ -1,0 +1,32 @@
+{
+  "manifest_version": 3,
+  "name": "BigIntCalculator",
+  "description": "This supports arithmetic operations outside the safe integer range using bigInt for the entered calculation.",
+  "version": "1.0.0",
+  "author": "TheGreatHB",
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  },
+  "permissions": ["activeTab"],
+  "background": {
+    "service_worker": "background_service_worker.js"
+  },
+  "commands": {
+    "open_calculator": {
+      "suggested_key": {
+        "default": "Alt+C"
+      },
+      "description": "Open the BigInt Calculator popup"
+    }
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  }
+}
