@@ -15,6 +15,7 @@ BigInt Calculator is a Chrome extension that handles arithmetic operations outsi
 1. Open the calculator popup in the Chrome browser using the Alt+C shortcut.
 2. Enter the expression and press Enter to check the result.
 3. Click the "Copy Result" button to copy the result to the clipboard.
+4. Press the Esc key to close the popup window.
 
 ## Use Cases
 
@@ -23,6 +24,10 @@ This program can be useful in the following cases:
 1. When dealing with computer science, cryptography, or math problems that require large integer operations
 2. Simulating arithmetic operations beyond the safe integer range in programming
 3. Performing calculations that require precision in finance, economics, engineering, etc.
+
+## Demo
+
+[Click here to see the BigInt Calculator Demo (GIF)](./demo/bigIntCalculator_demo.gif)
 
 ## Contributing to the Project
 
