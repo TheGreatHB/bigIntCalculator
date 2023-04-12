@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "BigIntCalculator",
   "description": "This supports arithmetic operations outside the safe integer range using bigInt for the entered calculation.",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "author": "TheGreatHB",
   "action": {
     "default_popup": "popup.html",
